@@ -1,0 +1,32 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div class="card-wrapper">
+    <ion-card>
+      <ion-card-header>
+        <img id="logo" src="assets/logo.png">
+        <ion-card-title>Login</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input [(ngModel)]="user.email" type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input [(ngModel)]="user.password" type="password"></ion-input>
+        </ion-item>
+        <br/>
+        <ion-button expand="block" (click)="login()">Login</ion-button>
+        <br/>
+        <ion-label class="text-center" color="danger"> Not a member yet ? </ion-label>
+        <ion-button expand="block" color="warning" (click)="register()">Register</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>
