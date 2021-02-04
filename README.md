@@ -6,9 +6,11 @@ It is a simple Profile DEMO App using Ionic 5
 
 A simple demo app that will describe my profile information and works. It is built on top of the ionic 5 default tab template. User has to Register with in the application to view the content. Firebase authentication using Email & Password is used to achieve the registration flow.
 
-### Dependencies
+### Dependencies & Versions
 
-* NodeJS, Ionic & Angular
+* Ionic : 5.4.16
+* Angular : 10.0.8
+* Node: 12.13.0
 
 ### Features
 * User Registration / Login with  Firebase authentication
