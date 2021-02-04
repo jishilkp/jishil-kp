@@ -1,4 +1,4 @@
-# Jishil-KP Ionic 5 Demo App 
+# Ionic 5 Demo App 
 
 It is a simple Profile DEMO App using Ionic 5
 
