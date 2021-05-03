@@ -12,6 +12,19 @@ A simple demo app that will describe my profile information and works. It is bui
 * Angular : 10.0.8
 * Node: 12.13.0
 
+## Screenshots
+<div align="center">
+   <img src="/resources/screenshots/login.png" width="200px"</img>
+   <span/>
+   <img src="/resources/screenshots/registration.png" width="200px"</img>
+   <span/>
+   <img src="/resources/screenshots/profile.png" width="200px"</img>
+   <span/>
+   <img src="/resources/screenshots/works.png" width="200px"</img>
+   <span/>
+   <img src="/resources/screenshots/comments.png" width="200px"</img>
+</div>
+
 ### Features
 * User Registration / Login with  Firebase authentication
 * Tab view with 3 tabs and different contents
